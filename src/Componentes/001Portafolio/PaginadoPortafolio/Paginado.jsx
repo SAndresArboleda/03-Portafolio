@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import './Paginado.css'
-import { Link } from 'react-router-dom';
 
 const Paginado = () => {
 
@@ -42,8 +41,6 @@ const Paginado = () => {
                     <div className='redes'>
                         <a href="https://www.linkedin.com/in/simon-arboleda-5a91612b5/"><i className="fa-brands fa-linkedin-in"></i></a>
                         <a href="https://github.com/SAndresArboleda"><i className="fa-brands fa-github"></i></a>
-                        {/* <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i className="fa-solid fa-rss"></i></a> */}
                     </div>
                 </div>
             </section>
@@ -55,14 +52,10 @@ const Paginado = () => {
                         <div className="col">
                             <h3>Datos Personales</h3>
                             <ul>
-                                {/* <li><strong>Cumpleaños </strong>
-                                    Enero 10 de 1985</li> */}
                                 <li><strong>Teléfono </strong>
                                     3215579580 - 3054752548</li>
                                 <li><strong>Email </strong>
                                     simondres@yahoo.es</li>
-                                {/* <li><strong>Website </strong>
-                                    www.exmple.com</li> */}
                                 <li><strong>Dirección </strong>
                                     carrera 8 #10-26 Antioquia-Colombia</li>
                                 <li><strong>Cargo </strong>
@@ -76,10 +69,10 @@ const Paginado = () => {
                                     <i className="fa-solid fa-people-roof"></i>
                                     <span>FAMILIA</span>
                                 </div>
-                                <Link to='/Home' className='LinkPort'><div className="interes">
+                                <div className="interes">
                                     <i className="fa-solid fa-laptop"></i>
                                     <span>PROGRAMAR</span>
-                                </div></Link>
+                                </div>
                                 <div className="interes">
                                     <i className='fa-solid fa-gamepad'></i>
                                     <span>JUEGOS</span>
@@ -286,7 +279,7 @@ const Paginado = () => {
                                 <div className='izqFoto'>
                                     <div className='instituto'>
                                         <span className="casa">
-                                            Comfama</span>
+                                            Universidad Católica de Oriente</span>
                                         <span className="fecha">2024</span>
                                     </div>
                                     <a href="https://drive.google.com/file/d/1nyplXnTM_ZRkCL9_rEsRiy5eeQA4mqHB/view?usp=drive_link">
@@ -382,59 +375,20 @@ const Paginado = () => {
                         <div className="proyecto">
                             <img src="src\Componentes\001Portafolio\PaginadoPortafolio\img\Pokémon.jpg" alt="" />
                             <div className="overlay">
-                                <a href="https://idiomasmaster-toqy.onrender.com/"><h3>Api Rest</h3>
+                                <a href=""><h3>Api Rest</h3>
                                     <p>Pókemon</p></a>
                             </div>
                         </div>
                         <div className="proyecto">
                             <img src="src\Componentes\001Portafolio\PaginadoPortafolio\img\Coca Cola.jpg" alt="" />
                             <div className="overlay">
-                                <a href="https://landing-practice1.surge.sh/"><h3>Landing Page</h3>
+                                <a href="https://6676f3d4123d5bc75c791338--classy-conkies-8fea82.netlify.app/"><h3>Landing Page</h3>
                                     <p>Coca Cola</p></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            {/*             
-            <section id='contacto' className='contacto'>
-                <div className="contenido-seccion">
-                    <h2>Contacto</h2>
-                    <div className="fila">
-                        <div className="col">
-                            <input type="text" placeholder='Tu nombre' />
-                            <input type="text" placeholder='Numero telefónico' />
-                            <input type="text" placeholder='Dirección de Correo' />
-                            <input type="text" placeholder='Tema' />
-                            <textarea name="" id="" cols="30" rows="10" placeholder='Mensaje'></textarea>
-                            <button>
-                                Enviar Mensaje<i className='fa-solid fa-paper-plane'></i>
-                                <span className='overlay'></span>
-                            </button>
-                        </div>
-                        <div className="col">
-                            <img src="src/Componentes/001Portafolio/PaginadoPortafolio/img/ubicacion.jpg" alt="" />
-                            <div className="info">
-                                <ul>
-                                    <li>
-                                        <i className='fa-solid fa-location-dot'></i>
-                                        Colombia, Antioquia, Medellín
-                                    </li>
-                                    <li>
-                                        <i className='fa-solid fa-mobile-screen'></i>
-                                        Contactame: +57 321 557 9580
-                                    </li>
-                                    <li>
-                                        <i className='fa-solid fa-envelope'></i>
-                                        Email: simondres@yahoo.es
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-             */}
             <footer className='footerPortafolio'>
                 <a href="#inicio" className='arriba'>
                     <i className='fa-solid fa-angles-up'></i>
@@ -442,8 +396,6 @@ const Paginado = () => {
                 <div className='redes'>
                     <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
                     <a href="#"><i className="fa-brands fa-github"></i></a>
-                    {/* <a href="#"><i className="fa-brands fa-instagram"></i></a> */}
-                    {/* <a href="#"><i className="fa-solid fa-rss"></i></a> */}
                 </div>
             </footer>
         </div >

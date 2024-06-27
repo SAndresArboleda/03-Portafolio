@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "server dist -s -n -L -p $PORT"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
@@ -19,7 +20,8 @@
     "react-router-dom": "^6.23.0",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.9",
-    "redux-thunk": "^2.4.2"
+    "redux-thunk": "^2.4.2",
+    "serve": "^14.2.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
